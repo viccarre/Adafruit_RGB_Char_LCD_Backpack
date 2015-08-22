@@ -35,23 +35,22 @@ You can explore the example project to understand how this library works, it's v
 The next functions are available:
 
 ```
-void lcd_begin();
-void lcd_setContrast(int contrast); //max 255, 200 is good 
-void lcd_setBrightness(int brightness); //max 255
-void lcd_setCursorAtBeginning();
-void lcd_clear();
-void lcd_print(String message);
-void lcd_setColor(int red, int green, int blue);
-void lcd_autoscrollOn();
-void lcd_autoscrollOff();
-void lcd_setCursor(int column, int row);
-void lcd_underlineCursorOn();
-void lcd_underlineCursorOff();
-void lcd_blinkCursorOn();
-void lcd_blinkCursorOff();
-void lcd_cursorForward();
-void lcd_cursorBackward();
-
+lcd_begin();
+lcd_setContrast(int contrast); //max 255, 200 is good 
+lcd_setBrightness(int brightness); //max 255
+lcd_setCursorAtBeginning();
+lcd_clear();
+lcd_print(String message);
+lcd_setColor(int red, int green, int blue);
+lcd_autoscrollOn();
+lcd_autoscrollOff();
+lcd_setCursor(int column, int row);
+lcd_underlineCursorOn();
+lcd_underlineCursorOff();
+lcd_blinkCursorOn();
+lcd_blinkCursorOff();
+lcd_cursorForward();
+lcd_cursorBackward();
 
 ```
 
